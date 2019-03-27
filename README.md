@@ -11,6 +11,7 @@ This is a guide on how to setup YubiKey for GPG and SSH. It's based on [drduh/Yu
 * [Table of Contents](#table-of-contents)
 * [Requirements](#requirements)
 * [Verify YubiKey](#verify-yubikey)
+* [Reset and erase YubiKey GPG](#reset-and-erase-yubikey-gpg)
 * [Create keys and setup YubiKey](#create-keys-and-setup-yubikey)
     + [Download required software and config files](#download-required-software-and-config-files)
     + [Go offline](#go-offline)
@@ -40,6 +41,10 @@ This is a guide on how to setup YubiKey for GPG and SSH. It's based on [drduh/Yu
 ## Verify YubiKey
 
 Use Yubico's [Verify YubiKey](https://www.yubico.com/genuine/) to confirm that you have a genuine YubiKey.
+
+## Reset and erase YubiKey GPG
+
+If for some reason (e.g. locked PIN) you'd like to erase YubiKey GPG application and restore it to a factory state, [follow this instruction](https://support.yubico.com/support/solutions/articles/15000006421-resetting-the-openpgp-applet-on-the-yubikey). Warning: this will delete your private keys stored on the YubiKey. 
 
 ## Create keys and setup YubiKey
 
